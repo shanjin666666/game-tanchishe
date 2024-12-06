@@ -292,4 +292,18 @@ canvas {
 
 #speedDown {
     transform: translateY(1px);
+}
+
+.game-author {
+    text-align: center;
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #00ffff;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5),
+                 0 0 20px rgba(0, 255, 255, 0.3),
+                 0 0 30px rgba(0, 255, 255, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: glitch 1s infinite;
 } 
