@@ -31,7 +31,7 @@ function initGame() {
 
     // 添加速度控制函数
     function updateSpeed(change) {
-        gameSpeed = Math.max(0.5, Math.min(2, gameSpeed + change));
+        gameSpeed = Math.max(0.5, Math.min(10, gameSpeed + change));
         gameInterval = 100 / gameSpeed;
         speedDisplay.textContent = gameSpeed.toFixed(1);
     }
